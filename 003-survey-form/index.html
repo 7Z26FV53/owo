@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>FreeCodeCamp Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">FreeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+    <form action="/" id="survey-form">
+        <label for="name" id="name-label">Name<input id="name" type="text" placeholder="Enter your name" class="inline"
+                required></label>
+        <label for="email" id="email-label">Email<input id="email" type="email" placeholder="Enter your Email"
+                class="inline" required></label>
+        <label for="number" id="number-label">Age<input id="number" type="number" placeholder="Enter your age"
+                class="inline" min="0" max="120"></label>
+        <label for="dropdown">Which option best describes your current role? <select id="dropdown" class="inline">
+                <option value="">Select current role</option>
+                <option value="1">Student</option>
+                <option value="2">Full Time Job</option>
+                <option value="3">Full Time Learner</option>
+                <option value="4">Prefer not to say</option>
+                <option value="5">Other</option>
+            </select></label>
+        Would you recommend freeCodeCamp to a friend? <label for="recommendation-yes"><input type="radio"
+                id="recommendation-yes" name="recommendation" value="1" class="box">Yes</label>
+        <label for="recommendation-no"><input type="radio" id="recommendation-no" name="recommendation" value="2"
+                class="box">No</label>
+        <label for="recommendation-unsure"><input type="radio" id="recommendation-unsure" name="recommendation"
+                value="3" class="box">Unsure</label>
+        <br>
+        What would you like to see improved? (Check all that apply)
+        <label for="improvement-1"><input type="checkbox" name="improvement" id="improvement-1" value="1"
+                class="box">front-end
+            projects</label>
+        <label for="improvement-2"><input type="checkbox" name="improvement" id="improvement-2" value="2"
+                class="box">back-end
+            projects</label>
+        <label for="improvement-3"><input type="checkbox" name="improvement" id="improvement-3" value="3"
+                class="box">data
+            visualization</label>
+
+        <br><label for="comment">Say something! <textarea id="comment" rows="5" cols="30"></textarea></label>
+        <input type="submit" value="Sumbit" id="submit">
+    </form>
+</body>
+
+</html>
