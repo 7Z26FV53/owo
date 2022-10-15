@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p,
+h1 {
+    text-align: center;
+}
+
+#title {
+    font-size: 5rem;
+    background-color: #d4d4d4;
+    margin: 0;
+    padding: 3% 0;
+}
+
+#img-div {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+#image {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    border-radius: 2%;
+}
+
+#img-caption {
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1%;
+}
+
+#tribute-info {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+#tribute-info li {
+    margin: 0;
+    padding: 1%;
+}
+
+#introduction {
+    font-size: 1.6rem;
+    padding: 2%;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.quote {
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 3%;
+    font-style: italic;
+}
+
+#wiki {
+    text-align: left;
+}
+
+#tribute-link {
+    text-decoration: none;
+    color: black;
+}
+
+#tribute-link:hover {
+    color: grey;
+}
